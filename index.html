@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Object</title>
+    <style>
+        section {
+            width: 100vw;
+            display: flex;
+            justify-content:space-around;
+            align-items: flex-start;
+            padding: 15px;
+        }
+
+        div {
+            background-color: cornflowerblue;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+        textarea {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <div>
+            <p><b>SET:</b></p>
+            <p><textarea rows="45" cols="100" id="set"></textarea></p>
+            <p><input id="pro" type="submit" value="Преобразовать"></p>
+        </div>
+        <div>
+            <p><b>GET:</b></p>
+            <p><textarea rows="45" cols="100" id="get"></textarea></p>
+            <p><input id="copy" type="submit" value="Копировать"></p>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
